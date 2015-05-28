@@ -1,0 +1,272 @@
+
+Test Case 1  		<error>
+   Existence of the file in the folder specified :  Not present
+
+
+Test Case 2  		<error>
+   Spaces present in the FileName :  FileName has spaces in the name and quotes not specified in the command
+
+
+Test Case 3  		<error>
+   Read permissions for the user for the file :  No read permission
+
+
+Test Case 4  		<single>
+   Size :  Empty
+
+
+Test Case 5  		<single>
+   Number of Lines in the file :  Zero
+
+
+Test Case 6  		<single>
+   Default value specified for NumLines :  No value
+
+
+Test Case 7  		<error>
+   Non numeric value specified for NumLines :  Wrong value
+
+
+Test Case 8  		<error>
+   Numeric value specified for NumLines :  <=0
+
+
+Test Case 9  		(Key = 2.2.2.2.2.1.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 10 		(Key = 2.2.2.2.2.1.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 11 		(Key = 2.2.2.2.2.2.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 12 		(Key = 2.2.2.2.2.2.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 13 		(Key = 2.2.2.2.3.1.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 14 		(Key = 2.2.2.2.3.1.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 15 		(Key = 2.2.2.2.3.1.0.0.4.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  MAXINT
+
+
+Test Case 16 		(Key = 2.2.2.2.3.2.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 17 		(Key = 2.2.2.2.3.2.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 18 		(Key = 2.2.2.2.3.2.0.0.4.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has spaces in the name and quotes are specified in the command
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  MAXINT
+
+
+Test Case 19 		(Key = 2.3.2.2.2.1.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 20 		(Key = 2.3.2.2.2.1.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 21 		(Key = 2.3.2.2.2.2.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 22 		(Key = 2.3.2.2.2.2.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  LessThanFive
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 23 		(Key = 2.3.2.2.3.1.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 24 		(Key = 2.3.2.2.3.1.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 25 		(Key = 2.3.2.2.3.1.0.0.4.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Only special characters like newline or spaces or tabs present in the file
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  MAXINT
+
+
+Test Case 26 		(Key = 2.3.2.2.3.2.0.0.2.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  <5
+
+
+Test Case 27 		(Key = 2.3.2.2.3.2.0.0.3.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  >=5
+
+
+Test Case 28 		(Key = 2.3.2.2.3.2.0.0.4.)
+   Existence of the file in the folder specified :  Present
+   Spaces present in the FileName                :  FileName has no spaces in the FileName
+   Read permissions for the user for the file    :  Permission available to read the file
+   Size                                          :  Not empty
+   Number of Lines in the file                   :  FiveOrMore
+   Content                                       :  Alphanumeric characters in multiple lines
+   Default value specified for NumLines          :  <n/a>
+   Non numeric value specified for NumLines      :  <n/a>
+   Numeric value specified for NumLines          :  MAXINT
+

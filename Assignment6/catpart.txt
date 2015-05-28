@@ -1,0 +1,36 @@
+# FileName
+  Existence of the file in the folder specified:
+      Not present.     [error][property emptyfile]
+      Present.            
+  Spaces present in the FileName:
+      FileName has spaces in the name and quotes not specified in the command. [error]
+      FileName has spaces in the name and quotes are specified in the command.
+      FileName has no spaces in the FileName.
+
+# FilePermissions
+  Read permissions for the user for the file:
+      No read permission.                    [error]
+      Permission available to read the file.
+
+# File
+  Size:
+      Empty.           [single]
+      Not empty.
+  Number of Lines in the file:
+      Zero.            [single]
+      LessThanFive.    
+      FiveOrMore.      [property manyLines]
+  Content:
+      Only special characters like newline or spaces or tabs present in the file.
+      Alphanumeric characters in multiple lines.                                  
+
+# NumLines
+  Default value specified for NumLines:
+      No value.        [single]
+  Non numeric value specified for NumLines:
+      Wrong value.     [error]
+  Numeric value specified for NumLines:
+      <=0.             [error]
+      <5.
+	  >=5.
+      MAXINT.          [if manyLines]
